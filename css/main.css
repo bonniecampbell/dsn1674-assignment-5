@@ -22,9 +22,9 @@ h2 {
   color: white;
   font-family: 'Noto+Sans', sans-serif;
   font-size: 2em;
-  margin: 0em 0em .5em 0em;
+  margin: 0;
+  padding: 0.5em 0em 0.5em 0em;
   display: block;
-
 }
 
 ol{
@@ -95,7 +95,7 @@ main{
   margin: 1em 0em 1em .5em;
 }
 .famous {
-  background-color: #f29b37;
+  background-color: #d98156;
   text-align: center;
   margin: 0em 0em 0em 0em;
   padding: 0;
@@ -130,4 +130,49 @@ figure{
 .Oats {
   color: #FFFFFF;
   font-style: italic;
+}
+h3{
+  font-size: 1.50em;
+  display: inline-block;
+  margin: 0;
+  padding: 0.5em 0em 0.5em 0em;
+  text-align: center;
+  font-family: 'Noto+Sans', sans-serif;
+  display: block;
+}
+.peanuts{
+  width: 20%;
+
+}
+.beans{
+  width: 20%;
+}
+.lentils{
+  width: 20%;
+}
+dl{
+  padding-left: 90px;
+  position: relative;
+  margin: 1em 0em 1em 1em;
+
+}
+dt {
+  font-style: italic;
+  font-size: 1em;
+  margin: 0em 0em 2.5em 0em;
+
+}
+dl img{
+  position: absolute;
+  left: 0;
+  float: left;
+
+}
+.footer{
+  background: #d98156;
+  text-align: center;
+  color: #FFE6E6;
+  font-size: .75em;
+  padding: 1em 0em 1.5em 0em;
+
 }
