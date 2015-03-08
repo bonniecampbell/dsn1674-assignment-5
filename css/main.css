@@ -1,5 +1,7 @@
 html{
+  padding: 0em 1em 0em 1em;
   box-sizing: border-box;
+  font-family: 'Noto+Sans', serif;
 }
 
 *, *::before, *::after{
@@ -32,7 +34,8 @@ ol{
 }
 
 header {
-  text-align: center
+  text-align: center;
+  padding: 2em 0em 0em 0em;
 }
 
 nav {
@@ -47,13 +50,13 @@ nav ol {
 }
 
 nav li {
-display: inline-block;
+  display: inline-block;
 }
 
 nav a {
   display: inline-block;
   margin: 0;
-  padding: 0.5em 8em 0.5em 2em;
+  padding: 0.5em 4em 0.5em 1em;
   color:white;
   background-color:#cd5b34;
   text-decoration: none;
