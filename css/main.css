@@ -18,7 +18,13 @@ h1 {
 
 h2 {
   background-color:#d98156;
-  text-align: center
+  text-align: center;
+  color: white;
+  font-family: 'Noto+Sans', sans-serif;
+  font-size: 2em;
+  margin: 0em 0em .5em 0em;
+  display: block;
+
 }
 
 ol{
@@ -87,4 +93,41 @@ main{
   width: 40%;
   clear: right;
   margin: 1em 0em 1em .5em;
+}
+.famous {
+  background-color: #f29b37;
+  text-align: center;
+  margin: 0em 0em 0em 0em;
+  padding: 0;
+}
+.corn{
+  width: 100%;
+
+}
+.rice{
+  float: left;
+  width: 50%;
+}
+.oats{
+  float: right;
+  width: 50%;
+}
+figcaption{
+  color: #FFFFFF;
+  font-style: italic;
+  clear: both;
+  text-align: center;
+}
+figure{
+  margin-bottom: 0;
+  margin: 0;
+}
+.Rice {
+  color: #FFFFFF;
+  padding: 0em 6em 1em 0em;
+  font-style: italic;
+}
+.Oats {
+  color: #FFFFFF;
+  font-style: italic;
 }
