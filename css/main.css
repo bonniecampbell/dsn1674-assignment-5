@@ -8,10 +8,12 @@ html{
 
 header {
   background-color:#cd5b34;
-  text-align: center
+  text-align: center;
+  padding: 2em 0em 0em 0em;
 }
 h1 {
   color: white;
+  margin: 0em 0em .5em 0em;
   }
 
 h2 {
@@ -31,6 +33,7 @@ nav {
   margin: 0;
   padding: 0em 0em 1em 0em;
 }
+
 nav ol {
   list-style-type: none;
   padding: 0;
@@ -38,15 +41,50 @@ nav ol {
 }
 
 nav li {
-display: inline;
+display: inline-block;
 }
+
 nav a {
   display: inline-block;
   margin: 0;
-  padding: 0.5em 0.5em;
+  padding: 0.5em 8em 0.5em 2em;
   color:white;
+  background-color:#cd5b34;
   text-decoration: none;
-  border-radius: 12px;
   border: 1px solid #a64139;
+  width:30%;
+}
 
+nav a:hover {
+  background-color: #9a3f09;
+  border: 1px solid #9a3f09;
+}
+
+main{
+  padding: 0em 1em 0em 1em;
+}
+
+.grain-left {
+  float: left;
+  width: 15%;
+}
+.grain-right {
+  float: right;
+  width: 15%;
+}
+.grains {
+  float: left;
+  width: 40%;
+  margin: 0 .5em .25em 0em;
+}
+.cereals{
+  float: right;
+  width: 40%;
+  margin: 1em 0em 0em .5em;
+}
+.quinoa{
+  float: right;
+  width: 40%;
+  clear: right;
+  margin: 1em 0em 1em .5em;
 }
